@@ -251,8 +251,6 @@ BEGIN ~Bubb's Spell Menu~
 				
 				INNER_ACTION BEGIN
 				
-					STRING_SET_EVALUATE unidentified_name_strref ~%unidentified_name_altered%~
-					
 					LAF STRING_REPLACE
 					STR_VAR 
 						string = EVAL ~%original_value%~
